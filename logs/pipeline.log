@@ -1,0 +1,32 @@
+2026-07-09 21:11:09,254 | INFO | Pipeline started.
+2026-07-09 21:11:09,254 | WARNING | This is a warning.
+2026-07-09 21:11:09,254 | ERROR | This is an error.
+2026-07-09 21:12:00,648 | INFO | Pipeline started.
+2026-07-09 21:12:00,648 | WARNING | This is a warning.
+2026-07-09 21:12:00,648 | ERROR | This is an error.
+2026-07-09 21:14:01,168 | INFO | 
+2026-07-09 21:14:01,171 | INFO | ======================================================================
+2026-07-09 21:14:01,171 | INFO | Student Churn Prediction Pipeline
+2026-07-09 21:14:01,171 | INFO | ======================================================================
+2026-07-09 21:14:01,171 | INFO | ============================================================
+2026-07-09 21:14:01,171 | INFO | START: Load Raw Data
+2026-07-09 21:22:37,295 | INFO | SUCCESS: Load Raw Data
+2026-07-09 21:22:37,295 | INFO | Execution Time: 516.12 sec
+2026-07-09 21:22:37,295 | INFO | ============================================================
+2026-07-09 21:22:37,295 | INFO | START: Generate Data Quality Report
+2026-07-09 21:24:21,105 | INFO | SUCCESS: Generate Data Quality Report
+2026-07-09 21:24:21,106 | INFO | Execution Time: 103.81 sec
+2026-07-09 21:24:21,106 | INFO | ============================================================
+2026-07-09 21:24:21,107 | INFO | START: Bronze to Silver ETL
+2026-07-09 21:39:06,238 | INFO | SUCCESS: Bronze to Silver ETL
+2026-07-09 21:39:06,239 | INFO | Execution Time: 885.13 sec
+2026-07-09 21:39:06,239 | INFO | ============================================================
+2026-07-09 21:39:06,239 | INFO | START: Load Dimensions
+2026-07-09 21:39:08,265 | ERROR | FAILED: Load Dimensions
+Traceback (most recent call last):
+  File "E:\depi_project\scripts\pipeline\run_pipeline.py", line 45, in run_python_script
+    subprocess.run(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['E:\\depi_project\\venv\\Scripts\\python.exe', 'E:\\depi_project\\scripts\\06_load_dimensions.py']' returned non-zero exit status 1.
+2026-07-09 21:39:08,366 | INFO | Execution Time: 2.02 sec

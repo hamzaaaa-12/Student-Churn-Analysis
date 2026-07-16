@@ -1,0 +1,5 @@
+Rule,Table,Result
+Score between 0 and 100,studentAssessment,PASS
+Weight between 0 and 100,assessments,PASS
+Studied credits > 0,studentInfo,PASS
+Registration date <= Unregistration date,studentRegistration,FAIL

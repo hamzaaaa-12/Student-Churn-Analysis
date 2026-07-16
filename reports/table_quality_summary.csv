@@ -1,0 +1,8 @@
+Table,Rows,Columns,Duplicate Rows,Total Null Values,Status
+studentInfo,32593,12,0,1111,PASS
+studentRegistration,32593,5,0,22566,PASS
+studentVle,10655280,6,787170,0,PASS
+studentAssessment,173912,5,0,173,PASS
+assessments,206,6,0,11,PASS
+vle,6364,6,0,10486,PASS
+courses,22,3,0,0,PASS

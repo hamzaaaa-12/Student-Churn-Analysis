@@ -1,0 +1,44 @@
+Table,Column,Data Type,Rows,Null Count,Null %,Distinct Values,Min,Max
+studentInfo,code_module,str,32593,0,0.0,7,AAA,GGG
+studentInfo,code_presentation,str,32593,0,0.0,4,2013B,2014J
+studentInfo,id_student,int64,32593,0,0.0,28785,3733,2716795
+studentInfo,gender,str,32593,0,0.0,2,F,M
+studentInfo,region,str,32593,0,0.0,13,East Anglian Region,Yorkshire Region
+studentInfo,highest_education,str,32593,0,0.0,5,A Level or Equivalent,Post Graduate Qualification
+studentInfo,imd_band,str,32593,1111,3.41,10,0-10%,90-100%
+studentInfo,age_band,str,32593,0,0.0,3,0-35,55<=
+studentInfo,num_of_prev_attempts,int64,32593,0,0.0,7,0,6
+studentInfo,studied_credits,int64,32593,0,0.0,61,30,655
+studentInfo,disability,str,32593,0,0.0,2,N,Y
+studentInfo,final_result,str,32593,0,0.0,4,Distinction,Withdrawn
+studentRegistration,code_module,str,32593,0,0.0,7,AAA,GGG
+studentRegistration,code_presentation,str,32593,0,0.0,4,2013B,2014J
+studentRegistration,id_student,int64,32593,0,0.0,28785,3733,2716795
+studentRegistration,date_registration,float64,32593,45,0.14,332,-322.0,167.0
+studentRegistration,date_unregistration,float64,32593,22521,69.1,416,-365.0,444.0
+studentVle,code_module,str,10655280,0,0.0,7,AAA,GGG
+studentVle,code_presentation,str,10655280,0,0.0,4,2013B,2014J
+studentVle,id_student,int64,10655280,0,0.0,26074,6516,2698588
+studentVle,id_site,int64,10655280,0,0.0,6268,526721,1049562
+studentVle,date,int64,10655280,0,0.0,295,-25,269
+studentVle,sum_click,int64,10655280,0,0.0,498,1,6977
+studentAssessment,id_assessment,int64,173912,0,0.0,188,1752,37443
+studentAssessment,id_student,int64,173912,0,0.0,23369,6516,2698588
+studentAssessment,date_submitted,int64,173912,0,0.0,312,-11,608
+studentAssessment,is_banked,int64,173912,0,0.0,2,0,1
+studentAssessment,score,float64,173912,173,0.1,101,0.0,100.0
+assessments,code_module,str,206,0,0.0,7,AAA,GGG
+assessments,code_presentation,str,206,0,0.0,4,2013B,2014J
+assessments,id_assessment,int64,206,0,0.0,206,1752,40088
+assessments,assessment_type,str,206,0,0.0,3,CMA,TMA
+assessments,date,float64,206,11,5.34,74,12.0,261.0
+assessments,weight,float64,206,0,0.0,24,0.0,100.0
+vle,id_site,int64,6364,0,0.0,6364,526721,1077905
+vle,code_module,str,6364,0,0.0,7,AAA,GGG
+vle,code_presentation,str,6364,0,0.0,4,2013B,2014J
+vle,activity_type,str,6364,0,0.0,20,dataplus,url
+vle,week_from,float64,6364,5243,82.39,30,0.0,29.0
+vle,week_to,float64,6364,5243,82.39,30,0.0,29.0
+courses,code_module,str,22,0,0.0,7,AAA,GGG
+courses,code_presentation,str,22,0,0.0,4,2013B,2014J
+courses,module_presentation_length,int64,22,0,0.0,7,234,269

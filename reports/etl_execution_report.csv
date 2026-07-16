@@ -1,0 +1,8 @@
+Table,Bronze Rows,Silver Rows,Quarantine Rows,Duplicates Removed,Status
+studentInfo,32593,32593,0,0,PASS
+studentRegistration,32593,32554,39,0,WARNING
+studentVle,10655280,9868110,0,787170,PASS
+studentAssessment,173912,173739,173,0,WARNING
+assessments,206,206,0,0,PASS
+vle,6364,1121,5243,0,WARNING
+courses,22,22,0,0,PASS
